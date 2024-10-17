@@ -1,0 +1,78 @@
+*{
+    text-decoration: None;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("pexels-pixabay-260922.jpg");
+    background-position: center;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    padding: 10px ;
+   
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.logo a:hover{
+    color: chocolate;
+}
+ul{
+    gap: 15px;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+li a{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+li    a:hover{
+    color: chocolate;
+}
+.hero{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 2px ;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.hero .btn{
+padding: 10px 20px;
+border: none;
+font-size: 15px;
+font-weight: 500;
+color: black;
+background-color:goldenrod;
+transition: 0.3s ease;
+cursor: pointer;
+}
+.hero .btn:hover{
+   background-color:orangered;
+}
